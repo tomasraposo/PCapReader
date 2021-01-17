@@ -98,7 +98,7 @@ class PCapReader:
     
 if __name__ == "__main__":
     if len(os.sys.argv) < 2:
-        print("Usage: python3 PcapReader.py [pcap]")
+        print("Usage: python3 PCapReader.py [pcap]")
         os.sys.exit()
     
     preader = PCapReader(sniff(offline=os.sys.argv[1]))
